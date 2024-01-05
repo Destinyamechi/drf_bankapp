@@ -10,9 +10,6 @@ from django.utils.decorators import method_decorator
 from django.views.decorators.cache import never_cache
 
 
-
-
-
 # Create your views here.
 class viewBalanceView(GenericAPIView):
     serializer_class = viewBalanceSerializer
